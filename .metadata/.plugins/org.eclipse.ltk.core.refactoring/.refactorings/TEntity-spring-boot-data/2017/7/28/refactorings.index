@@ -1,0 +1,8 @@
+1499572024733	Rename package 'com.study.pattern.data.domain.repository'
+1499574358819	Extract local variable 'configuration'
+1499574409379	Extract local variable 'repository'
+1499605420175	Delete element
+1499605482263	Delete elements
+1499614416638	Extract local variable 'findAll'
+1499683379181	Delete element
+1499877099771	Delete element

@@ -1,0 +1,18 @@
+pipeline{
+ 
+ 	agent any
+ 	
+ 	stages {
+ 		stage ('Compile Stage') {
+ 		
+ 			withMaven(maven : '') {
+ 				sh 'mvn clean compile'
+ 			}
+ 		}
+ 	
+ 	}
+
+
+
+
+}

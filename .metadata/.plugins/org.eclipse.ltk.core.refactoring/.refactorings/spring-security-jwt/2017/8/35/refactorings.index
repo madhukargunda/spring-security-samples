@@ -1,0 +1,12 @@
+1503820474047	Rename type 'PersistenceConfig'
+1503824272671	Copy compilation unit
+1503824448624	Rename field 'AppUserService'
+1503824709376	Rename local variable 'AppUser'
+1503825067651	Rename type 'AppserController'
+1503825091606	Rename local variable 'appUser'
+1503825812712	Extract local variable 'findByName'
+1503828886164	Delete element
+1503828903712	Move compilation unit
+1503839332954	Delete element
+1503839381229	Delete element
+1503839633586	Delete element

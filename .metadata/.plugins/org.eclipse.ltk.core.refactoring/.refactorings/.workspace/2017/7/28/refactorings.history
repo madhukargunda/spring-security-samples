@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;employe-spring-boot-data&apos; to &apos;Entity-spring-boot-data&apos;" description="Rename resource &apos;employe-spring-boot-data&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/employe-spring-boot-data" name="Entity-spring-boot-data" stamp="1499574336270" updateReferences="true"/>
+</session>

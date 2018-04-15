@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="718" key="DIALOG_X_ORIGIN"/>
+		<item value="339" key="DIALOG_Y_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.m2e"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="544" key="DIALOG_X_ORIGIN"/>
+		<item value="320" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/rw-json-spring-boot/.gitignore&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/src/main/java/com/study/pattern/security/domain/AppUser.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/src/main/java/com/study/pattern/security/service/UserService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/src/main/java/com/study/pattern/security/service/impl/UserServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/src/main/java/com/study/pattern/security/service/impl/AppUserServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/src/main/java/com/study/pattern/security/resource/UserController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/src/main/java/com/study/pattern/security/resource/AuthenticationController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/spring-security-jwt/.gitignore&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/version-management-api/.mvn/wrapper/maven-wrapper.properties&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="660" key="DIALOG_X_ORIGIN"/>
+			<item value="219" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,39 @@
+
+
+Configuring the Persistence Layer of a Spring Application
+
+We can create the configuration class, which configures the persistence layer of a Spring application, by following these steps:
+
+1.Create the properties file that contains the properties used by our application context configuration class.
+2.Configure the datasource bean.
+3.Configure the entity manager factory bean.
+4.Configure the transaction manager bean.
+5.Enable annotation-driven transaction management.
+6.Configure Spring Data JPA.
+
+
+MySql Configuration
+
+#DB properties:
+db.driver=com.mysql.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/hibnatedb
+db.username=hibuser
+db.password=root
+
+#Hibernate Configuration:
+hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+hibernate.show_sql=true
+entitymanager.packages.to.scan=
+
+@Configuration
+@ComponentScan
+public class JavaConfiguration {
+ //... other beans
+  
+ @Bean(initMethod="start",destroyMethod="stop")
+ public org.h2.tools.Server h2WebConsonleServer () throws SQLException {
+   return org.h2.tools.Server.createWebServer("-web","-webAllowOthers","-webDaemon","-webPort", "8082");
+ }
+}
+
+http://shengwangi.blogspot.sg/2016/02/how-to-use-h2-embeded-database-in-spring.html

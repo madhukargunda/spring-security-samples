@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/Users/madhukar/Documents/workspace-2/spring-boot-mvc/Docker-Spring-Boot-MVC-HSQLDB/.git\:/Users/madhukar/Documents/workspace-2/microservice/.git\:/Users/madhukar/Documents/workspace-2/springboot-person-api/spring-boot-rest-example/.git\:/Users/madhukar/Documents/workspace-2/.git\:/Users/madhukar/Documents/workspace-2/spring-security-jwt/.git\:
+GitRepositoriesView.GitDirectories.relative=spring-boot-mvc/Docker-Spring-Boot-MVC-HSQLDB/.git\:microservice/.git\:springboot-person-api/spring-boot-rest-example/.git\:.git\:spring-security-jwt/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

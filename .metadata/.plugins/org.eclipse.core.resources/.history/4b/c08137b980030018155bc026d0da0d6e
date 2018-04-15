@@ -1,0 +1,37 @@
+pipeline{
+ 
+ 	agent any
+ 	
+ 	environment {
+        IMAGE = readMavenPom().getArtifactId()    //Use Pipeline Utility Steps
+        VERSION = readMavenPom().getVersion()
+    }
+ 	
+ 	stages {
+ 		stage ('Compile Stage') {
+ 		
+ 			withMaven(maven : '') {
+ 				sh 'mvn clean compile'
+ 			}
+ 		}
+ 		
+ 		stage ('Testing Stage') {
+ 		
+ 			withMaven(maven : '') {
+ 				sh 'mvn test'
+ 			}
+ 		}
+ 		
+ 		stage ('Deployment Stage') {
+ 		
+ 			withMaven(maven : '') {
+ 				sh 'mvn test'
+ 			}
+ 		}
+ 	
+ 	}
+
+
+
+
+}

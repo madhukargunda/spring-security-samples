@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-boot-rest-example"/>
+<aop-project name="rw-json-spring-boot"/>
+<aop-project name="microservice"/>
+<aop-project name="spring-boot-jpa-docker-webapp"/>
+<aop-project name="myImages"/>
+<aop-project name="peronApi"/>
+<aop-project name="version-management-api"/>
+</aop-reference-model>

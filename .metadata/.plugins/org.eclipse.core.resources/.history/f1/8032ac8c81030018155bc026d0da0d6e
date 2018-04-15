@@ -1,0 +1,43 @@
+pipeline{
+ 
+ 	agent any
+ 	
+ 	environment {
+        IMAGE = readMavenPom().getArtifactId()    //Use Pipeline Utility Steps
+        VERSION = readMavenPom().getVersion()
+    }
+ 	
+ 	stages {
+ 		stage ('Compile Stage') {
+ 		
+ 			withMaven(maven : 'apache-maven-3.5.0') {
+ 				sh 'mvn clean compile'
+ 			}
+ 		}
+ 		
+ 		stage ('Testing Stage') {
+ 		
+ 			withMaven(maven : 'apache-maven-3.5.0') {
+ 				sh 'mvn test'
+ 			}
+ 		}
+ 		
+ 		stage ('Deployment Stage') {	
+ 			withMaven(maven : 'apache-maven-3.5.0') {
+ 				sh 'Deployment Stage'
+ 			}
+ 		}
+ 		
+ 		stage ('Docker Stage') {
+ 		
+ 			withMaven(maven : 'apache-maven-3.5.0') {
+ 				echo 'Things Docker stage'
+ 			}
+ 		}
+ 	
+ 	}
+
+
+
+
+}
